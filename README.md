@@ -4,7 +4,7 @@
 
 A curated, deployment-minded guide to safety, security, governance and assurance for embodied AI systems: robots, autonomous vehicles, drones, humanoids, service robots, industrial robots, maritime systems, smart infrastructure and AI agents that act through physical systems.
 
-This list is intentionally broader than model papers. It includes technical safety research, cyber-physical security, human-robot interaction, standards, policy, evaluation, incident response, and Singapore-relevant deployment work.
+This list is intentionally broader than model papers. It includes technical safety research, cyber-physical security, human-robot interaction, standards, policy, evaluation, incident response, and deployment lessons.
 
 ## Scope
 
@@ -29,7 +29,6 @@ The default search window starts in **January 2023**, with older foundational ro
 
 - [Surveys and Landscape Papers](#surveys-and-landscape-papers)
 - [Policy, Governance and Public Sector](#policy-governance-and-public-sector)
-- [Singapore](#singapore)
 - [Security and Red Teaming](#security-and-red-teaming)
 - [Robot Foundation Models and VLA Systems](#robot-foundation-models-and-vla-systems)
 - [Safety Frameworks and Technical Methods](#safety-frameworks-and-technical-methods)
@@ -37,7 +36,6 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Standards](#standards)
 - [Domain-Specific Safety](#domain-specific-safety)
 - [Related Awesome Lists](#related-awesome-lists)
-- [Local Workstream Artifacts](#local-workstream-artifacts)
 
 ## Surveys and Landscape Papers
 
@@ -53,26 +51,8 @@ The default search window starts in **January 2023**, with older foundational ro
 - [OECD AI Policy Observatory](https://oecd.ai/) - International AI policy tracker and governance resources.
 - [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Risk-based AI regulation; relevant to physical-world high-risk AI systems.
 
-## Singapore
-
-- [Singapore National AI Strategy 2.0](https://www.mddi.gov.sg/newsroom/04122023/) - National AI strategy covering talent, infrastructure, governance and public-good applications.
-- [2026 Update to Singapore's National AI Strategy](https://www.mddi.gov.sg/newsroom/update-to-singapore-s-national-ai-strategy--refreshed-priorities-to-harness-ai-for-the-public-good-factsheet/) - Refreshed priorities for harnessing AI for public good.
-- [IMDA Artificial Intelligence](https://www.imda.gov.sg/about-imda/emerging-technologies-and-research/artificial-intelligence) - Singapore's central AI governance and assurance resources.
-- [Model AI Governance Framework for Agentic AI](https://www.mddi.gov.sg/newsroom/singapore-launches-new-model-ai-governance-framework-for-agentic-ai--/) - Singapore framework for agentic AI governance; important for robots and physical-world agents.
-- [Punggol Digital District Physical AI Testbed](https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/singapore-government-and-8-industry-leaders-to-research-test-and-deploy-physical-ai-in-pdd) - Singapore's first multi-operator robotics and embodied AI testbed in a mixed-use public district.
-- [National Robotics Programme](https://grants.sg/grants/astar-nrp/) - Singapore's national robotics and embodied AI R&D platform, hosted by A*STAR.
-- [CSA Guidelines and Companion Guide on Securing AI Systems](https://www.csa.gov.sg/resources/publications/guidelines-and-companion-guide-on-securing-ai-systems/) - AI security guidance relevant to cyber-physical systems.
-- [GovTech: Governing AI Responsibly](https://www.tech.gov.sg/technews/governing-ai-responsibly/) - Public-sector responsible AI governance and AI Guardian.
-- [LTA Autonomous Vehicles](https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/autonomous_vehicles.html) - Singapore land transport AV regulatory and trial context.
-- [MOT Automated and Autonomous Vehicles](https://www.mot.gov.sg/what-we-do/automated-autonomous-vehicles/) - Singapore transport ministry overview of autonomous vehicle work.
-- [CAAS / MOT Unmanned Aircraft](https://www.mot.gov.sg/what-we-do/aviation/unmanned-aircraft/) - Unmanned aircraft policy and safety context.
-- [MPA Maritime AI Adoption](https://www.mpa.gov.sg/media-centre/details/singapore-s-maritime-sector-to-accelerate-artificial-intelligence-%28ai%29-adoption-under-new-partnership) - Maritime AI adoption and autonomous port context.
-- [HSA Digital Health](https://www.hsa.gov.sg/medical-devices/digital-health/) - Digital health and AI-enabled medical device guidance.
-- [HTX Robotics, Automation and Unmanned Systems](https://www.htx.gov.sg/who-we-are/what-we-do/our-expertise/robots-automation-and-unmanned-systems) - Singapore Home Team robotics and unmanned systems capability.
-
 ## Security and Red Teaming
 
-- [CSA Guidelines and Companion Guide on Securing AI Systems](https://www.csa.gov.sg/resources/publications/guidelines-and-companion-guide-on-securing-ai-systems/) - Lifecycle security guidance for AI systems.
 - [Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses](https://arxiv.org/abs/2605.02900) - Includes adversarial, backdoor, jailbreak and hardware-level attacks across the embodied pipeline.
 - [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/) - General AI application security guidance; useful input for EAI control planes and APIs.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial threat landscape for AI systems.
@@ -104,30 +84,29 @@ The default search window starts in **January 2023**, with older foundational ro
 - [ISO 10218-2:2025](https://www.iso.org/standard/73934.html) - Safety requirements for robot applications and integration.
 - [ISO/TS 15066:2016](https://www.iso.org/standard/62996.html) - Collaborative robot safety guidance.
 - [IEEE 2846](https://standards.ieee.org/ieee/2846/6989/) - Assumptions in safety-related models for automated driving systems.
-- [Singapore TR 68 Review](https://www.enterprisesg.gov.sg/-/media/esg/files/quality-and-standards/standards/pc_03oct2025.pdf) - Singapore technical reference work for autonomous vehicles.
 
 ## Domain-Specific Safety
 
 ### Autonomous Vehicles
 
-- [LTA Autonomous Vehicles](https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/autonomous_vehicles.html) - Singapore AV trials and regulatory context.
-- [MOT Automated and Autonomous Vehicles](https://www.mot.gov.sg/what-we-do/automated-autonomous-vehicles/) - Singapore ministry overview of AVs across transport domains.
+- [IEEE 2846](https://standards.ieee.org/ieee/2846/6989/) - Assumptions in safety-related models for automated driving systems.
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - General risk management structure that can be adapted to AV and autonomous systems assurance.
 
 ### Drones and Unmanned Aircraft
 
-- [MOT Unmanned Aircraft](https://www.mot.gov.sg/what-we-do/aviation/unmanned-aircraft/) - Singapore aviation safety and unmanned aircraft context.
+- [JARUS](https://jarus-rpas.org/) - International expert group developing recommendations for remotely piloted aircraft systems.
 
 ### Maritime and Ports
 
-- [MPA Maritime AI Adoption](https://www.mpa.gov.sg/media-centre/details/singapore-s-maritime-sector-to-accelerate-artificial-intelligence-%28ai%29-adoption-under-new-partnership) - AI adoption in Singapore's maritime sector.
+- [IMO Maritime Autonomous Surface Ships](https://www.imo.org/en/MediaCentre/HotTopics/Pages/Autonomous-shipping.aspx) - International maritime regulatory work on autonomous shipping.
 
 ### Healthcare
 
-- [HSA Digital Health](https://www.hsa.gov.sg/medical-devices/digital-health/) - Singapore digital health and AI-enabled medical device guidance.
+- [FDA Artificial Intelligence and Machine Learning in Software as a Medical Device](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - Medical AI regulation context relevant to healthcare robots and embodied clinical systems.
 
 ### Public Safety
 
-- [HTX Robotics, Automation and Unmanned Systems](https://www.htx.gov.sg/who-we-are/what-we-do/our-expertise/robots-automation-and-unmanned-systems) - Singapore public-safety robotics and unmanned systems.
+- [NIST Public Safety Communications Research](https://www.nist.gov/ctl/pscr) - Public-safety technology research context relevant to emergency response robotics and field systems.
 
 ## Related Awesome Lists
 
@@ -135,13 +114,6 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Awesome Embodied AI](https://github.com/haoranD/Awesome-Embodied-AI) - Broader embodied AI resource list.
 - [Awesome Robotics](https://github.com/kiloreux/awesome-robotics) - General robotics resources.
 - [Awesome AI Agents for Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - Reference style for domain-specific agentic AI curation.
-
-## Local Workstream Artifacts
-
-These are initial Singapore-focused artifacts for the workstream:
-
-- [Singapore EAI Safety Landscape Memo](artifacts/singapore_eai_landscape_memo.md)
-- [Singapore EAI Risk Register](artifacts/singapore_eai_risk_register.csv)
 
 ## Contributing
 

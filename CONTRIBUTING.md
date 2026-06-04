@@ -10,7 +10,7 @@ Good additions are resources that improve understanding of embodied AI safety, s
 - Official policy, regulation, standards or guidance.
 - Benchmarks, datasets, evaluation tools and red-team resources.
 - Incident reports or deployment lessons with credible sources.
-- Singapore-relevant public-sector, regulatory or testbed material.
+- Public-sector, regulatory or testbed material from any jurisdiction.
 
 ## Format
 
@@ -29,7 +29,7 @@ Prefer original sources over summaries. For papers, link to arXiv, publisher pag
 - Include the year when timing is important.
 - Do not add generic LLM safety resources unless they clearly connect to physical-world agency.
 - Do not add generic robotics resources unless they clearly connect to safety, security, assurance or governance.
-- Add Singapore-specific resources under the Singapore section unless they fit better in a domain section.
+- Add jurisdiction-specific resources when they are broadly useful for EAI safety, especially when they provide reusable governance, assurance, standards or deployment lessons.
 
 ## Suggested Tags
 
@@ -39,7 +39,7 @@ Useful tags include:
 - `policy`
 - `governance`
 - `standards`
-- `singapore`
+- `jurisdiction`
 - `cybersecurity`
 - `red-teaming`
 - `vla`
@@ -66,4 +66,3 @@ Before opening a pull request:
 - The entry is not already listed.
 - The description explains why the resource matters.
 - The resource is placed in the most specific section available.
-

@@ -11,7 +11,7 @@ Rationale: 2023 is when embodied foundation models became a significant topic fo
 ## Source Types
 
 - Academic search: arXiv, Semantic Scholar, Google Scholar, IEEE Xplore, ACM Digital Library, Science Robotics, IJRR, RSS, CoRL, ICRA, IROS, NeurIPS, ICML, CVPR, ACL and AAAI.
-- Standards and guidance: ISO, IEC, IEEE, NIST, OECD, Singapore IMDA, CSA, LTA, CAAS, MPA, HSA, PDPC, EnterpriseSG and sector regulators.
+- Standards and guidance: ISO, IEC, IEEE, NIST, OECD, national AI safety institutes, sector regulators and public-sector guidance bodies.
 - Repositories: GitHub topics and search for `embodied-ai`, `robotics-safety`, `vla`, `robot-foundation-model`, `humanoid-robot`, `autonomous-vehicles`, `robot-security`, `ai-assurance`.
 - Benchmarks and datasets: project sites, Hugging Face, Papers with Code, Open X-Embodiment, embodied AI leaderboards and robot evaluation platforms.
 - Deployment sources: government sandboxes, autonomous vehicle pilots, public robot testbeds, incident reports and credible technical blogs.
@@ -41,20 +41,19 @@ Use combinations of:
 "cyber physical" AI security robot
 ```
 
-Singapore-specific queries:
+Jurisdiction-specific queries:
 
 ```text
-Singapore "physical AI"
-Singapore "embodied AI"
-Singapore robotics safety AI
-Singapore autonomous robot public path
-Singapore Punggol Digital District robot testbed
-Singapore National Robotics Programme embodied AI
-Singapore CSA securing AI systems robotics
-Singapore IMDA agentic AI framework physical AI
-Singapore autonomous vehicle LTA AI safety
-Singapore HTX robotics AI safety
-Singapore HSA AI healthcare robot
+[country or region] "physical AI"
+[country or region] "embodied AI"
+[country or region] robotics safety AI
+[country or region] autonomous robot public path
+[country or region] robot testbed AI safety
+[country or region] AI safety institute robotics
+[country or region] securing AI systems robotics
+[country or region] agentic AI framework physical AI
+[country or region] autonomous vehicle AI safety
+[country or region] healthcare robot AI safety
 ```
 
 ## Inclusion Criteria
@@ -67,7 +66,7 @@ Include a resource when it does at least one of the following:
 - Provides benchmarks, datasets, evaluations or leaderboards relevant to safe deployment.
 - Sets standards, governance, regulation or operational guidance for physical AI.
 - Documents real-world deployment, incidents, sandboxing or testbed governance.
-- Is Singapore-relevant for policy, public sector deployment, regulation or assurance.
+- Is relevant to policy, public-sector deployment, regulation or assurance in any jurisdiction.
 
 ## Exclusion Criteria
 
@@ -87,7 +86,7 @@ Suggested tags:
 - `policy`
 - `governance`
 - `standards`
-- `singapore`
+- `jurisdiction`
 - `cybersecurity`
 - `red-teaming`
 - `vla`
@@ -104,4 +103,3 @@ Suggested tags:
 - `dataset`
 - `incident`
 - `assurance`
-
