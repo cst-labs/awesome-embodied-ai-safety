@@ -78,6 +78,11 @@ The default search window starts in **January 2023**, with older foundational ro
 #### May 2025
 
 - [A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics](https://arxiv.org/abs/2505.12583) - Survey of physical risk control across pre-deployment, pre-incident and post-incident phases for foundation-model-enabled robotics. `survey`, `physical-risk`, `foundation-model`
+- [Guided by Guardrails: Control Barrier Functions as Safety Instructors for Robotic Learning](https://arxiv.org/abs/2505.18858) - Uses CBF-based guardrails to shape safer robot learning behavior. `control-barrier-function`, `safe-rl`, `robot-learning`
+
+#### April 2025
+
+- [Large Language and Vision-Language Models for Robot: Safety Challenges, Mitigation Strategies and Future Directions](https://www.sciencedirect.com/science/article/pii/S0143991X2500056X) - Survey of safety challenges and mitigations for LLM/VLM-powered robotics. `survey`, `llm`, `vlm`, `robot-safety`
 
 #### March 2025
 
@@ -104,11 +109,14 @@ The default search window starts in **January 2023**, with older foundational ro
 
 #### October 2024
 
+- [pi0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) - VLA flow model for general robot control. `vla`, `flow-matching`, `robot-control`
+- [Semantically Safe Robot Manipulation: From Semantic Scene Understanding to Motion Safeguards](https://arxiv.org/abs/2410.15185) - Combines semantic scene understanding with control-barrier-style motion safeguards. `semantic-safety`, `manipulation`, `control-barrier-function`
 - [Jailbreaking LLM-Controlled Robots](https://arxiv.org/abs/2410.13691) - RoboPAIR attack showing that jailbreaks can elicit harmful physical actions from LLM-controlled robots. `jailbreak`, `llm-robot`, `security`
 
 #### September 2024
 
 - [SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems](https://arxiv.org/abs/2409.01630) - Safety framework for mobile robots using LLM-enabled embodied AI. `framework`, `mobile-robot`, `llm`
+- [Foundation Models in Robotics: Applications, Challenges, and the Future](https://journals.sagepub.com/doi/10.1177/02783649241281508) - Survey of foundation models in robotics, including applications, challenges and future directions. `survey`, `robot-foundation-model`, `robotics`
 
 #### July 2024
 
@@ -119,14 +127,24 @@ The default search window starts in **January 2023**, with older foundational ro
 - [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) - Open-source 7B VLA trained on diverse robot demonstrations, enabling wider VLA research and evaluation. `vla`, `open-source`, `robot-policy`
 - [LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions](https://arxiv.org/abs/2406.08824) - Study of harmful behavior risks in LLM-driven robots. `llm-robot`, `harm`, `bias`
 
+#### May 2024
+
+- [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) - Open-source generalist robot policy trained on Open X-Embodiment data. `robot-policy`, `open-source`, `generalist`
+
+#### April 2024
+
+- [Learning Control Barrier Functions and their Application in Reinforcement Learning: A Survey](https://arxiv.org/abs/2404.16879) - Survey of learned CBFs and their use in safe reinforcement learning. `survey`, `control-barrier-function`, `safe-rl`
+
 #### March 2024
 
 - [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://arxiv.org/abs/2403.09631) - 3D VLA world-model approach for embodied robotics. `vla`, `world-model`, `3d`
+- [Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps](https://arxiv.org/abs/2403.02751) - Safe-by-construction navigation pipeline using Gaussian splatting maps. `navigation`, `safe-planning`, `gaussian-splatting`
 
 #### February 2024
 
 - [A Survey on Robotics with Foundation Models: toward Embodied AI](https://arxiv.org/abs/2402.02385) - Survey of foundation models in robotics, including datasets, simulators, benchmarks and challenges. `survey`, `robotics`, `foundation-model`
 - [Highlighting the Safety Concerns of Deploying LLMs/VLMs in Robotics](https://arxiv.org/abs/2402.10340) - Early safety analysis of LLM/VLM-controlled robotics under prompt and perceptual perturbations. `llm`, `vlm`, `robot-safety`
+- [A Survey on an Emerging Safety Challenge for Autonomous Vehicles: Safety of the Intended Functionality](https://www.sciencedirect.com/science/article/pii/S2095809924000274) - Survey of SOTIF for autonomous vehicles. `survey`, `autonomous-vehicle`, `sotif`
 
 #### January 2024
 
@@ -141,6 +159,10 @@ The default search window starts in **January 2023**, with older foundational ro
 #### October 2023
 
 - [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) - Cross-embodiment robot dataset and models across many robots, skills and tasks. `dataset`, `robot-learning`, `foundation-model`
+
+#### September 2023
+
+- [Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions](https://arxiv.org/abs/2309.10150) - Offline RL method for scalable multitask robotic manipulation. `offline-rl`, `robot-learning`, `transformer`
 
 #### July 2023
 
@@ -158,6 +180,7 @@ The default search window starts in **January 2023**, with older foundational ro
 #### March 2023
 
 - [PaLM-E: An Embodied Multimodal Language Model](https://proceedings.mlr.press/v202/driess23a.html) - Embodied multimodal language model for robotics tasks and visual-language reasoning. `multimodal`, `robotics`, `foundation-model`
+- [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) - Diffusion-based visuomotor policy learning for robot manipulation. `diffusion-policy`, `visuomotor`, `manipulation`
 
 #### February 2023
 
@@ -167,8 +190,18 @@ The default search window starts in **January 2023**, with older foundational ro
 
 - [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) - Large-scale transformer policy for real-world robot control. `robot-transformer`, `foundation-model`, `control`
 - [VIMA: General Robot Manipulation with Multimodal Prompts](https://arxiv.org/abs/2210.03094) - Multimodal prompting formulation for robot manipulation. `multimodal-prompting`, `manipulation`, `robot-policy`
+- [ProgPrompt: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/abs/2209.11302) - LLM-based programmatic prompting for situated robot task planning. `planning`, `llm`, `robotics`
+- [Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/abs/2209.07753) - Uses code-generating language models to express robot policies. `llm`, `embodied-control`, `code-generation`
+- [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608) - Uses language-model reasoning and feedback for embodied task planning. `llm`, `planning`, `embodied-reasoning`
 - [Robots Enact Malignant Stereotypes](https://arxiv.org/abs/2207.11569) - Study showing harmful social biases in robots using large vision-language models. `bias`, `harm`, `robotics`
 - [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) - Generalist transformer agent spanning text, games and robotic control. `generalist-agent`, `robotics`, `foundation-model`
+- [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691) - SayCan grounds language-model plans in robot affordances. `llm`, `affordance`, `planning`
+- [Phantom of the ADAS: Securing Advanced Driver-Assistance Systems from Split-Second Phantom Attacks](https://dl.acm.org/doi/10.1145/3372297.3423359) - Physical sensor spoofing attack against ADAS perception. `autonomous-vehicle`, `sensor-spoofing`, `security`
+- [Safety Gym: Benchmarking Safe Exploration in Deep Reinforcement Learning](https://arxiv.org/abs/1910.01708) - Benchmark suite for safe exploration in reinforcement learning. `benchmark`, `safe-rl`, `safe-exploration`
+- [Control Barrier Functions: Theory and Applications](https://arxiv.org/abs/1903.11199) - Foundational overview of CBFs for safety-critical control. `control-barrier-function`, `safe-control`, `theory`
+- [Robust Physical-World Attacks on Deep Learning Visual Classification](https://arxiv.org/abs/1707.08945) - Foundational physical adversarial-example work relevant to robot and AV perception. `physical-attack`, `perception`, `adversarial`
+- [Is Deep Learning Safe for Robot Vision? Adversarial Examples Against the iCub Humanoid](https://arxiv.org/abs/1708.06939) - Early demonstration of adversarial examples against humanoid robot vision. `robot-vision`, `adversarial`, `humanoid`
+- [Hidden Voice Commands](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini) - Foundational hidden-command attack against speech interfaces relevant to voice-controlled robots. `audio`, `voice-command`, `security`
 
 ## Benchmarks, Datasets and Evaluation
 
@@ -183,6 +216,7 @@ The default search window starts in **January 2023**, with older foundational ro
 
 - [International AI Safety Report 2026](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026) - Broad AI safety synthesis; relevant for agentic systems, tool use, monitoring and containment.
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - General AI risk management framework useful for structuring EAI safety cases.
+- [NIST: Challenges of Assured Autonomy](https://www.nist.gov/publications/challenges-assured-autonomy) - Assurance, verification and testing challenges for autonomous systems.
 - [OECD AI Policy Observatory](https://oecd.ai/) - International AI policy tracker and governance resources.
 - [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Risk-based AI regulation; relevant to physical-world high-risk AI systems.
 
@@ -196,6 +230,9 @@ The default search window starts in **January 2023**, with older foundational ro
 - [ISO 10218-1:2025](https://www.iso.org/standard/73933.html) - Safety requirements for industrial robots.
 - [ISO 10218-2:2025](https://www.iso.org/standard/73934.html) - Safety requirements for robot applications and integration.
 - [ISO/TS 15066:2016](https://www.iso.org/standard/62996.html) - Collaborative robot safety guidance.
+- [ISO 3691-4:2023](https://www.iso.org/standard/83545.html) - Safety requirements for driverless industrial trucks and autonomous mobile robot-like systems.
+- [ISO 21448:2022](https://www.iso.org/standard/77490.html) - Safety of the intended functionality for road vehicles, relevant to perception-heavy autonomous systems.
+- [UL 4600](https://webstore.ansi.org/standards/ul/ul4600ed2023) - Safety standard for evaluating autonomous products through safety cases and lifecycle assurance.
 - [IEEE 2846](https://standards.ieee.org/ieee/2846/6989/) - Assumptions in safety-related models for automated driving systems.
 
 ## Domain-Specific Safety
@@ -203,6 +240,8 @@ The default search window starts in **January 2023**, with older foundational ro
 ### Autonomous Vehicles
 
 - [IEEE 2846](https://standards.ieee.org/ieee/2846/6989/) - Assumptions in safety-related models for automated driving systems.
+- [ISO 21448:2022](https://www.iso.org/standard/77490.html) - SOTIF guidance for hazards caused by functional insufficiencies and foreseeable misuse.
+- [UL 4600](https://webstore.ansi.org/standards/ul/ul4600ed2023) - Safety-case standard for autonomous products.
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - General risk management structure that can be adapted to AV and autonomous systems assurance.
 
 ### Drones and Unmanned Aircraft

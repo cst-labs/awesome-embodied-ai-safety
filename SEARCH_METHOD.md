@@ -41,6 +41,19 @@ For each review, extract papers that fall into at least one of these buckets:
 - Foundational VLA, robot foundation model or embodied agent paper that changes deployment risk.
 - Domain paper with direct physical-world safety relevance: autonomous vehicles, drones, humanoids, service robots, healthcare, public safety, industrial robots or maritime systems.
 
+Coverage targets for the first comprehensive pass:
+
+- Surveys and landscape papers.
+- VLA and robot foundation model anchors.
+- Embodied LLM/VLM planning and agent papers.
+- Safety benchmarks and failure-detection methods.
+- Red-teaming, jailbreaking, prompt-injection and adversarial evaluation.
+- Physical-world perception attacks and defenses.
+- Classical safe control, safe RL, CBFs, shielding, runtime assurance and reachability.
+- Human-robot interaction and social harm papers.
+- Domain-specific safety for autonomous vehicles, drones, humanoids, healthcare, industrial/service robots and maritime systems.
+- Standards, assurance frameworks and safety-case resources.
+
 ### Step 2: Deduplicate and Tag
 
 Deduplicate by title and arXiv ID/DOI. Keep the earliest public version date for chronological placement. Add lightweight tags such as `survey`, `vla`, `benchmark`, `red-teaming`, `failure-detection`, `policy`, `robot-foundation-model`, `physical-risk`, or `semantic-safety`.
@@ -147,6 +160,12 @@ Suggested tags:
 - `healthcare`
 - `public-safety`
 - `human-robot-interaction`
+- `safe-control`
+- `safe-rl`
+- `control-barrier-function`
+- `runtime-assurance`
+- `semantic-safety`
+- `physical-attack`
 - `benchmark`
 - `dataset`
 - `incident`
