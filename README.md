@@ -42,6 +42,7 @@ The default search window starts in **January 2023**, with older foundational ro
 
 #### June 2026
 
+- [Cosmos 3: Omnimodal World Models for Physical AI](https://arxiv.org/abs/2606.02800) - NVIDIA open world model family for physical AI, spanning multimodal understanding, world simulation, action generation and embodied agent backbones. `world-model`, `physical-ai`, `foundation-model`
 - [RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies](https://arxiv.org/abs/2506.18123) - Real-world evaluation framework for generalist robot policies. `benchmark`, `evaluation`, `robot-policy`
 - [SAFE: Multitask Failure Detection for Vision-Language-Action Models](https://arxiv.org/abs/2506.09937) - Failure detector for generalist robot policies, evaluated on OpenVLA, pi0 and pi0-FAST in simulation and real robots. `failure-detection`, `vla`, `runtime-safety`
 - [IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/abs/2506.16402) - Benchmark for interactive safety of VLM-driven embodied agents in household scenarios. `benchmark`, `vlm`, `household`
