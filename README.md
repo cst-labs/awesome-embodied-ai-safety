@@ -27,22 +27,71 @@ The default search window starts in **January 2023**, with older foundational ro
 
 ## Contents
 
-- [Surveys and Landscape Papers](#surveys-and-landscape-papers)
+- [Papers](#papers)
+- [Benchmarks, Datasets and Evaluation](#benchmarks-datasets-and-evaluation)
 - [Policy, Governance and Public Sector](#policy-governance-and-public-sector)
 - [Security and Red Teaming](#security-and-red-teaming)
-- [Robot Foundation Models and VLA Systems](#robot-foundation-models-and-vla-systems)
-- [Safety Frameworks and Technical Methods](#safety-frameworks-and-technical-methods)
-- [Benchmarks, Datasets and Evaluation](#benchmarks-datasets-and-evaluation)
 - [Standards](#standards)
 - [Domain-Specific Safety](#domain-specific-safety)
+- [Regional and Jurisdiction-Specific Resources](#regional-and-jurisdiction-specific-resources)
 - [Related Awesome Lists](#related-awesome-lists)
 
-## Surveys and Landscape Papers
+## Papers
 
-- [Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses](https://arxiv.org/abs/2605.02900) - 2026 survey covering attacks and defenses across perception, cognition, planning, action, interaction and agentic systems.
-- [Embodied AI: Emerging Risks and Opportunities for Policy Action](https://arxiv.org/abs/2509.00117) - Policy-oriented framing of embodied AI risks and governance opportunities.
-- [A Survey on Predictive Safety in Embodied AI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6562019) - 2026 survey focused on predictive safety across embodied systems.
-- [Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review](https://arxiv.org/abs/2505.20503) - Systematic review on foundation models in mobile service robotics and deployment challenges.
+### 2026
+
+#### June 2026
+
+- [RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies](https://arxiv.org/abs/2506.18123) - Real-world evaluation framework for generalist robot policies. `benchmark`, `evaluation`, `robot-policy`
+
+#### May 2026
+
+- [Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses](https://arxiv.org/abs/2605.02900) - Survey covering attacks and defenses across perception, cognition, planning, action, interaction and agentic systems. `survey`, `security`, `risk`
+- [Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review](https://arxiv.org/abs/2505.20503) - Systematic review on foundation models in mobile service robotics and deployment challenges. `survey`, `mobile-robot`, `foundation-model`
+
+#### April 2026
+
+- [Using Large Language Models for Embodied Planning Introduces Systematic Safety Risks](https://arxiv.org/abs/2604.18463) - Empirical work on safety risks in LLM-driven embodied planning. `planning`, `llm`, `safety`
+
+### 2025
+
+#### September 2025
+
+- [Embodied AI: Emerging Risks and Opportunities for Policy Action](https://arxiv.org/abs/2509.00117) - Policy-oriented framing of embodied AI risks and governance opportunities. `policy`, `risk`, `governance`
+
+#### March 2025
+
+- [SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](https://arxiv.org/abs/2503.03480) - Safety alignment approach for VLA models. `vla`, `alignment`, `safety`
+- [Towards Safe Robot Foundation Models](https://arxiv.org/abs/2503.07404) - Modular safety approach for robot foundation models. `robot-foundation-model`, `safety`, `architecture`
+
+### 2024
+
+#### September 2024
+
+- [SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems](https://arxiv.org/abs/2409.01630) - Safety framework for mobile robots using LLM-enabled embodied AI. `framework`, `mobile-robot`, `llm`
+
+#### January 2024
+
+- [AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963) - Large-scale orchestration of robots using embodied foundation models. `robot-foundation-model`, `multi-robot`, `orchestration`
+
+### 2023
+
+#### October 2023
+
+- [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) - Cross-embodiment robot dataset and models across many robots, skills and tasks. `dataset`, `robot-learning`, `foundation-model`
+
+#### July 2023
+
+- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) - Paper that helped establish VLA models as a robotics paradigm. `vla`, `robot-control`, `foundation-model`
+
+#### March 2023
+
+- [PaLM-E: An Embodied Multimodal Language Model](https://proceedings.mlr.press/v202/driess23a.html) - Embodied multimodal language model for robotics tasks and visual-language reasoning. `multimodal`, `robotics`, `foundation-model`
+
+## Benchmarks, Datasets and Evaluation
+
+- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment robotics dataset and RT-X models.
+- [Embodied Arena](https://www.dfki.de/web/forschung/projekte-publikationen/publikation/16377) - Evaluation platform for embodied AI capabilities.
 
 ## Policy, Governance and Public Sector
 
@@ -53,30 +102,8 @@ The default search window starts in **January 2023**, with older foundational ro
 
 ## Security and Red Teaming
 
-- [Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses](https://arxiv.org/abs/2605.02900) - Includes adversarial, backdoor, jailbreak and hardware-level attacks across the embodied pipeline.
 - [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/) - General AI application security guidance; useful input for EAI control planes and APIs.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial threat landscape for AI systems.
-
-## Robot Foundation Models and VLA Systems
-
-- [PaLM-E: An Embodied Multimodal Language Model](https://proceedings.mlr.press/v202/driess23a.html) - 2023 embodied multimodal language model for robotics tasks and visual-language reasoning.
-- [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) - 2023 paper that helped establish VLA models as a robotics paradigm.
-- [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) - Cross-embodiment robot dataset and models across many robots, skills and tasks.
-- [AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963) - Large-scale orchestration of robots using embodied foundation models.
-- [The Foundation Model Path to Open-World Robots](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-166.pdf) - 2024 technical report on requirements for robot foundation models.
-
-## Safety Frameworks and Technical Methods
-
-- [SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems](https://arxiv.org/abs/2409.01630) - Safety framework for mobile robots using LLM-enabled embodied AI.
-- [SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](https://arxiv.org/abs/2503.03480) - Safety alignment approach for VLA models.
-- [Towards Safe Robot Foundation Models](https://arxiv.org/abs/2503.07404) - Modular safety approach for robot foundation models.
-- [Using Large Language Models for Embodied Planning Introduces Systematic Safety Risks](https://arxiv.org/abs/2604.18463) - Empirical work on safety risks in LLM-driven embodied planning.
-
-## Benchmarks, Datasets and Evaluation
-
-- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment robotics dataset and RT-X models.
-- [Embodied Arena](https://www.dfki.de/web/forschung/projekte-publikationen/publikation/16377) - Evaluation platform for embodied AI capabilities.
-- [RoboArena](https://arxiv.org/abs/2506.18123) - Distributed real-world evaluation of generalist robot policies.
 
 ## Standards
 
@@ -107,6 +134,10 @@ The default search window starts in **January 2023**, with older foundational ro
 ### Public Safety
 
 - [NIST Public Safety Communications Research](https://www.nist.gov/ctl/pscr) - Public-safety technology research context relevant to emergency response robotics and field systems.
+
+## Regional and Jurisdiction-Specific Resources
+
+- [Singapore Embodied AI Safety Resources](SINGAPORE.md) - Singapore-specific policy, governance, testbed and public-sector resources relevant to embodied AI safety.
 
 ## Related Awesome Lists
 
