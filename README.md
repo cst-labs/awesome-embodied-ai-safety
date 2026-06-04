@@ -270,7 +270,6 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Awesome Embodied AI Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) - Paper-heavy list associated with the 2026 embodied AI safety survey.
 - [Awesome Embodied AI](https://github.com/haoranD/Awesome-Embodied-AI) - Broader embodied AI resource list.
 - [Awesome Robotics](https://github.com/kiloreux/awesome-robotics) - General robotics resources.
-- [Awesome AI Agents for Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - Reference style for domain-specific agentic AI curation.
 
 ## Contributing
 
