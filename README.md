@@ -23,7 +23,7 @@ Out of scope by default: generic chatbot safety, ordinary LLM evaluations, purel
 
 ## Curation
 
-The default search window starts in **January 2023**, with older foundational robotics safety, security and standards work included where relevant. See [SEARCH_METHOD.md](SEARCH_METHOD.md) for the detailed curation method.
+The default search window starts in **January 2023**, with older foundational robotics safety, security and standards work included where relevant. The list is expanded using a review-led method: start from major surveys and systematic reviews, then add representative papers, benchmarks and systems chronologically. See [SEARCH_METHOD.md](SEARCH_METHOD.md) for the detailed curation method.
 
 ## Contents
 
@@ -43,38 +43,100 @@ The default search window starts in **January 2023**, with older foundational ro
 #### June 2026
 
 - [RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies](https://arxiv.org/abs/2506.18123) - Real-world evaluation framework for generalist robot policies. `benchmark`, `evaluation`, `robot-policy`
+- [SAFE: Multitask Failure Detection for Vision-Language-Action Models](https://arxiv.org/abs/2506.09937) - Failure detector for generalist robot policies, evaluated on OpenVLA, pi0 and pi0-FAST in simulation and real robots. `failure-detection`, `vla`, `runtime-safety`
+- [IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/abs/2506.16402) - Benchmark for interactive safety of VLM-driven embodied agents in household scenarios. `benchmark`, `vlm`, `household`
+- [AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions](https://arxiv.org/abs/2506.14697) - Benchmark for embodied agents responding to hazardous instructions. `benchmark`, `hazardous-instructions`, `embodied-agent`
 
 #### May 2026
 
 - [Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses](https://arxiv.org/abs/2605.02900) - Survey covering attacks and defenses across perception, cognition, planning, action, interaction and agentic systems. `survey`, `security`, `risk`
 - [Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review](https://arxiv.org/abs/2505.20503) - Systematic review on foundation models in mobile service robotics and deployment challenges. `survey`, `mobile-robot`, `foundation-model`
+- [Embodied AI in Action: Insights from SAE World Congress 2026 on Safety, Trust, Robotics, and Real-World Deployment](https://arxiv.org/abs/2605.10653) - White paper on embodied AI deployment as a systems safety and governance challenge. `white-paper`, `deployment`, `trust`
 
 #### April 2026
 
+- [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775) - Survey of VLA safety across attacks, defenses, evaluation and deployment. `survey`, `vla`, `safety`
 - [Using Large Language Models for Embodied Planning Introduces Systematic Safety Risks](https://arxiv.org/abs/2604.18463) - Empirical work on safety risks in LLM-driven embodied planning. `planning`, `llm`, `safety`
 
 ### 2025
 
+#### December 2025
+
+- [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908) - Survey of safe learning for contact-rich robot tasks, including foundation-model-enabled robots. `survey`, `contact-rich`, `safe-learning`
+- [VLA-Arena: An Open-Source Framework for Benchmarking Vision-Language-Action Models](https://arxiv.org/abs/2512.22539) - Benchmarking framework exposing generalization, robustness, safety-constraint and long-horizon limitations in VLAs. `benchmark`, `vla`, `robustness`
+- [An Anatomy of Vision-Language-Action Models: From Modules to Milestones and Challenges](https://arxiv.org/abs/2512.11362) - Survey of VLA model modules, milestones and open challenges, including safety and evaluation. `survey`, `vla`, `architecture`
+
 #### September 2025
 
+- [Can AI Perceive Physical Danger and Intervene?](https://arxiv.org/abs/2509.21651) - ASIMOV 2.0 benchmark work on physical danger perception and intervention for embodied AI. `benchmark`, `physical-safety`, `semantic-safety`
 - [Embodied AI: Emerging Risks and Opportunities for Policy Action](https://arxiv.org/abs/2509.00117) - Policy-oriented framing of embodied AI risks and governance opportunities. `policy`, `risk`, `governance`
+
+#### August 2025
+
+- [Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey](https://arxiv.org/abs/2508.13073) - Survey of VLM-based VLA models for manipulation and their open challenges. `survey`, `vla`, `manipulation`
+
+#### May 2025
+
+- [A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics](https://arxiv.org/abs/2505.12583) - Survey of physical risk control across pre-deployment, pre-incident and post-incident phases for foundation-model-enabled robotics. `survey`, `physical-risk`, `foundation-model`
 
 #### March 2025
 
+- [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020) - Robotics foundation model report with explicit discussion of semantic and physical safety considerations. `robot-foundation-model`, `semantic-safety`, `deployment`
+- [Generating Robot Constitutions & Benchmarks for Semantic Safety](https://arxiv.org/abs/2503.08663) - Introduces ASIMOV benchmark and generated robot constitutions for semantic safety. `benchmark`, `semantic-safety`, `constitution`
 - [SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](https://arxiv.org/abs/2503.03480) - Safety alignment approach for VLA models. `vla`, `alignment`, `safety`
 - [Towards Safe Robot Foundation Models](https://arxiv.org/abs/2503.07404) - Modular safety approach for robot foundation models. `robot-foundation-model`, `safety`, `architecture`
 
+#### February 2025
+
+- [Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks](https://arxiv.org/abs/2502.13175) - Survey of embodied AI vulnerabilities and attacks across physical and model-mediated attack surfaces. `survey`, `security`, `robustness`
+- [EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents](https://arxiv.org/abs/2502.09560) - Benchmark for evaluating MLLMs as embodied agents across vision-driven tasks. `benchmark`, `mllm`, `embodied-agent`
+
 ### 2024
+
+#### December 2024
+
+- [SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents](https://arxiv.org/abs/2412.13178) - Benchmark for safety-aware task planning in embodied LLM agents. `benchmark`, `task-planning`, `llm-agent`
+- [Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models](https://arxiv.org/abs/2412.14058) - Empirical study of design choices in building generalist robot policies. `vla`, `robot-policy`, `generalization`
+
+#### November 2024
+
+- [Embodied Red Teaming for Auditing Robotic Foundation Models](https://arxiv.org/abs/2411.18676) - Automated red-teaming method for discovering unsafe failures in language-conditioned robot models. `red-teaming`, `robot-foundation-model`, `evaluation`
+
+#### October 2024
+
+- [Jailbreaking LLM-Controlled Robots](https://arxiv.org/abs/2410.13691) - RoboPAIR attack showing that jailbreaks can elicit harmful physical actions from LLM-controlled robots. `jailbreak`, `llm-robot`, `security`
 
 #### September 2024
 
 - [SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems](https://arxiv.org/abs/2409.01630) - Safety framework for mobile robots using LLM-enabled embodied AI. `framework`, `mobile-robot`, `llm`
+
+#### July 2024
+
+- [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) - Broad embodied AI survey spanning robots, simulators and multimodal/world-model approaches. `survey`, `embodied-ai`, `world-model`
+
+#### June 2024
+
+- [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) - Open-source 7B VLA trained on diverse robot demonstrations, enabling wider VLA research and evaluation. `vla`, `open-source`, `robot-policy`
+- [LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions](https://arxiv.org/abs/2406.08824) - Study of harmful behavior risks in LLM-driven robots. `llm-robot`, `harm`, `bias`
+
+#### March 2024
+
+- [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://arxiv.org/abs/2403.09631) - 3D VLA world-model approach for embodied robotics. `vla`, `world-model`, `3d`
+
+#### February 2024
+
+- [A Survey on Robotics with Foundation Models: toward Embodied AI](https://arxiv.org/abs/2402.02385) - Survey of foundation models in robotics, including datasets, simulators, benchmarks and challenges. `survey`, `robotics`, `foundation-model`
+- [Highlighting the Safety Concerns of Deploying LLMs/VLMs in Robotics](https://arxiv.org/abs/2402.10340) - Early safety analysis of LLM/VLM-controlled robotics under prompt and perceptual perturbations. `llm`, `vlm`, `robot-safety`
 
 #### January 2024
 
 - [AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963) - Large-scale orchestration of robots using embodied foundation models. `robot-foundation-model`, `multi-robot`, `orchestration`
 
 ### 2023
+
+#### November 2023
+
+- [RoboFlamingo: Vision-Language Foundation Models as Effective Robot Imitators](https://arxiv.org/abs/2311.01378) - Adapts vision-language foundation models for robot imitation. `vlm`, `robot-imitation`, `foundation-model`
 
 #### October 2023
 
@@ -84,14 +146,38 @@ The default search window starts in **January 2023**, with older foundational ro
 
 - [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) - Paper that helped establish VLA models as a robotics paradigm. `vla`, `robot-control`, `foundation-model`
 
+#### June 2023
+
+- [RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation](https://arxiv.org/abs/2306.11706) - Self-improving generalist robot manipulation agent. `generalist-agent`, `manipulation`, `robot-learning`
+- [SPRINT: Scalable Policy Pre-Training via Language Instruction Relabeling](https://arxiv.org/abs/2306.11886) - Language-instruction relabeling for policy pre-training. `language`, `policy-learning`, `pretraining`
+
+#### May 2023
+
+- [VOYAGER: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) - Open-ended LLM-powered embodied agent that builds a skill library in Minecraft. `llm-agent`, `open-ended`, `skill-learning`
+
 #### March 2023
 
 - [PaLM-E: An Embodied Multimodal Language Model](https://proceedings.mlr.press/v202/driess23a.html) - Embodied multimodal language model for robotics tasks and visual-language reasoning. `multimodal`, `robotics`, `foundation-model`
+
+#### February 2023
+
+- [Describe, Explain, Plan and Select: Interactive Planning with LLMs for Open-World Agents](https://arxiv.org/abs/2302.01560) - LLM-based planning approach for open-world embodied agents. `planning`, `llm-agent`, `open-world`
+
+### Foundational Pre-2023
+
+- [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) - Large-scale transformer policy for real-world robot control. `robot-transformer`, `foundation-model`, `control`
+- [VIMA: General Robot Manipulation with Multimodal Prompts](https://arxiv.org/abs/2210.03094) - Multimodal prompting formulation for robot manipulation. `multimodal-prompting`, `manipulation`, `robot-policy`
+- [Robots Enact Malignant Stereotypes](https://arxiv.org/abs/2207.11569) - Study showing harmful social biases in robots using large vision-language models. `bias`, `harm`, `robotics`
+- [Gato: A Generalist Agent](https://arxiv.org/abs/2205.06175) - Generalist transformer agent spanning text, games and robotic control. `generalist-agent`, `robotics`, `foundation-model`
 
 ## Benchmarks, Datasets and Evaluation
 
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment robotics dataset and RT-X models.
 - [Embodied Arena](https://www.dfki.de/web/forschung/projekte-publikationen/publikation/16377) - Evaluation platform for embodied AI capabilities.
+- [ASIMOV Benchmark](https://asimov-benchmark.github.io/) - Semantic and physical safety benchmarks for foundation models serving as robot brains.
+- [SafeAgentBench](https://github.com/shengyin1224/SafeAgentBench) - Benchmark and environment for safety-aware task planning of embodied LLM agents.
+- [Embodied Red Teaming](https://s-karnik.github.io/embodied-red-team-project-page/) - Project page for red-team evaluation of robotic foundation models.
+- [VLA-SAFE](https://vla-safe.github.io/) - Failure detection for VLA policies, including OpenVLA and pi0-family policies.
 
 ## Policy, Governance and Public Sector
 

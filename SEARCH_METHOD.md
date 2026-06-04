@@ -10,11 +10,59 @@ Rationale: 2023 is when embodied foundation models became a significant topic fo
 
 ## Source Types
 
+- Review backbones: recent surveys and systematic reviews are used first to identify the field boundaries, recurring taxonomies and high-signal papers.
 - Academic search: arXiv, Semantic Scholar, Google Scholar, IEEE Xplore, ACM Digital Library, Science Robotics, IJRR, RSS, CoRL, ICRA, IROS, NeurIPS, ICML, CVPR, ACL and AAAI.
 - Standards and guidance: ISO, IEC, IEEE, NIST, OECD, national AI safety institutes, sector regulators and public-sector guidance bodies.
 - Repositories: GitHub topics and search for `embodied-ai`, `robotics-safety`, `vla`, `robot-foundation-model`, `humanoid-robot`, `autonomous-vehicles`, `robot-security`, `ai-assurance`.
 - Benchmarks and datasets: project sites, Hugging Face, Papers with Code, Open X-Embodiment, embodied AI leaderboards and robot evaluation platforms.
 - Deployment sources: government sandboxes, autonomous vehicle pilots, public robot testbeds, incident reports and credible technical blogs.
+
+## Review-Led Expansion Method
+
+The repository should be expanded from survey and review papers before broad keyword search. This keeps the list more systematic and avoids over-weighting whatever happens to rank highly in search results.
+
+### Step 1: Seed From Literature Reviews
+
+Use these review backbones first:
+
+- Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses
+- Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms
+- Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks
+- A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics
+- Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review
+- Foundation Models in Robotics: Applications, Challenges, and the Future
+- A Survey on Robotics with Foundation Models: toward Embodied AI
+- Large Language and Vision-Language Models for Robot: Safety Challenges, Mitigation Strategies and Future Directions
+
+For each review, extract papers that fall into at least one of these buckets:
+
+- Direct safety, security, robustness, alignment or governance contribution.
+- Benchmark or dataset for embodied safety, failure detection, robustness or evaluation.
+- Foundational VLA, robot foundation model or embodied agent paper that changes deployment risk.
+- Domain paper with direct physical-world safety relevance: autonomous vehicles, drones, humanoids, service robots, healthcare, public safety, industrial robots or maritime systems.
+
+### Step 2: Deduplicate and Tag
+
+Deduplicate by title and arXiv ID/DOI. Keep the earliest public version date for chronological placement. Add lightweight tags such as `survey`, `vla`, `benchmark`, `red-teaming`, `failure-detection`, `policy`, `robot-foundation-model`, `physical-risk`, or `semantic-safety`.
+
+### Step 3: Add Chronologically
+
+Place papers in the README under `Papers` by year and month. Within each month, put surveys first, then benchmarks/evaluation papers, then methods/systems. Keep descriptions to one sentence.
+
+### Step 4: Promote Stable Resources
+
+Move durable non-paper resources into thematic sections:
+
+- Benchmarks, datasets and evaluation platforms.
+- Policy and governance.
+- Security and red-teaming resources.
+- Standards.
+- Domain-specific references.
+- Regional or jurisdiction-specific pages.
+
+### Step 5: Re-run Monthly
+
+Each month, repeat targeted searches on arXiv, Semantic Scholar, Google Scholar, Papers with Code, Hugging Face Papers and GitHub. Add newly discovered papers to the chronological list. If a monthly batch is large, add only high-confidence entries first and mark uncertain items for later review in an issue.
 
 ## Core Queries
 
