@@ -4,7 +4,7 @@
 
 A curated, deployment-minded guide to safety, security, governance and assurance for embodied AI systems: robots, autonomous vehicles, drones, humanoids, service robots, industrial robots, maritime systems, smart infrastructure and AI agents that act through physical systems.
 
-This list is intentionally broader than model papers. It includes technical safety research, cyber-physical security, human-robot interaction, standards, policy, evaluation, incident response, and deployment lessons.
+This list is intentionally broader than safety papers. It includes technical safety research, frontier embodied-AI capability papers, cyber-physical security, human-robot interaction, standards, policy, evaluation, incident response, and deployment lessons.
 
 ## Scope
 
@@ -19,7 +19,7 @@ Embodied AI safety covers systems that can sense, reason, decide, communicate or
 - Public safety, healthcare, logistics and smart-estate robots
 - Agentic AI systems with access to physical-world tools, APIs or infrastructure
 
-Out of scope by default: generic chatbot safety, ordinary LLM evaluations, purely virtual agents, and robotics papers without a safety, security, governance or assurance angle.
+Out of scope by default: generic chatbot safety, ordinary LLM evaluations, purely virtual agents, and incremental robotics papers without a safety, security, governance, assurance or frontier embodied-AI capability angle.
 
 ## Curation
 

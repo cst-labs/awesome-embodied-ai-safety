@@ -39,12 +39,14 @@ For each review, extract papers that fall into at least one of these buckets:
 - Direct safety, security, robustness, alignment or governance contribution.
 - Benchmark or dataset for embodied safety, failure detection, robustness or evaluation.
 - Foundational VLA, robot foundation model or embodied agent paper that changes deployment risk.
+- Frontier-moving embodied AI capability paper, especially from a major lab, company or open model release, when it materially shifts what robots, autonomous systems or physical AI agents can perceive, simulate, plan or do.
 - Domain paper with direct physical-world safety relevance: autonomous vehicles, drones, humanoids, service robots, healthcare, public safety, industrial robots or maritime systems.
 
 Coverage targets for the first comprehensive pass:
 
 - Surveys and landscape papers.
 - VLA and robot foundation model anchors.
+- Frontier capability releases from major labs and companies, including world models, VLA models, robot policies, embodied reasoning systems, humanoid models and physical AI platforms.
 - Embodied LLM/VLM planning and agent papers.
 - Safety benchmarks and failure-detection methods.
 - Red-teaming, jailbreaking, prompt-injection and adversarial evaluation.
@@ -100,6 +102,11 @@ Use combinations of:
 "embodied AI" policy
 "embodied AI" governance
 "cyber physical" AI security robot
+"frontier" "physical AI"
+"world model" "physical AI"
+"robot foundation model" company
+"vision-language-action" "open model"
+"humanoid" "foundation model"
 ```
 
 Jurisdiction-specific queries:
@@ -124,6 +131,7 @@ Include a resource when it does at least one of the following:
 - Describes hazards, attacks, failures or unsafe behavior in embodied AI.
 - Proposes safety, alignment, control, monitoring, red-teaming or assurance methods for robots or physical-world agents.
 - Covers robot foundation models, VLA models or embodied agents with safety implications.
+- Introduces a frontier-moving embodied AI capability, major open model, platform, dataset or system from a leading lab/company that is likely to shape downstream safety, evaluation or deployment work.
 - Provides benchmarks, datasets, evaluations or leaderboards relevant to safe deployment.
 - Sets standards, governance, regulation or operational guidance for physical AI.
 - Documents real-world deployment, incidents, sandboxing or testbed governance.
@@ -135,6 +143,7 @@ Exclude or de-prioritise:
 
 - Generic robotics papers without safety, security or governance relevance.
 - Generic LLM safety papers with no physical-world agency connection.
+- Incremental capability papers that do not materially shift embodied AI capabilities, deployment pathways or safety-relevant evaluation needs.
 - Vendor announcements without technical detail, unless useful for tracking deployment trends.
 - Duplicative blog summaries when the original paper or official source is available.
 - Hype pieces that do not improve technical or policy understanding.
