@@ -42,6 +42,7 @@ The default search window starts in **January 2023**, with older foundational ro
 
 #### June 2026
 
+- [Safe Embodied AI for Long-horizon Tasks: A Cross-layer Analysis of Robotic Manipulation](https://arxiv.org/abs/2606.05660) - Cross-layer survey framing long-horizon manipulation safety across capability backbones, safeguards and evaluation gaps. `survey`, `manipulation`, `long-horizon`, `safety`
 - [Cosmos 3: Omnimodal World Models for Physical AI](https://arxiv.org/abs/2606.02800) - NVIDIA open world model family for physical AI, spanning multimodal understanding, world simulation, action generation and embodied agent backbones. `world-model`, `physical-ai`, `foundation-model`
 - [Benchmarking Vision-Language-Action Models on SO-101: Failure and Recovery Analysis](https://arxiv.org/abs/2606.08881) - Real-world low-cost robot benchmark for VLA robustness, with structured failure taxonomy and recovery-aware evaluation metrics. `benchmark`, `vla`, `failure-analysis`
 - [ActProbe: Action-Space Probe for Early Failure Detection of Generative Robot Policies](https://arxiv.org/abs/2606.08508) - Lightweight action-space detector for early failure prediction in generative robot policies, including transfer to real-robot deployment. `failure-detection`, `robot-policy`, `runtime-safety`
@@ -216,9 +217,13 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Embodied Arena](https://www.dfki.de/web/forschung/projekte-publikationen/publikation/16377) - Evaluation platform for embodied AI capabilities.
 - [ASIMOV Benchmark](https://asimov-benchmark.github.io/) - Semantic and physical safety benchmarks for foundation models serving as robot brains.
 - [EmbodiedEvalKit](https://github.com/pickxiguapi/EmbodiedEvalKit) - Unified evaluation framework for 25+ embodied benchmarks with API, Hugging Face and vLLM backends.
+- [RoboArena](https://robo-arena.github.io/) - Community-run real-world benchmark for generalist robot policies with distributed pairwise evaluation on DROID.
+- [NVIDIA Cosmos](https://github.com/NVIDIA/Cosmos) - Open platform of world models, datasets, evaluation tools and robot policy assets for physical AI.
 - [SafeAgentBench](https://github.com/shengyin1224/SafeAgentBench) - Benchmark and environment for safety-aware task planning of embodied LLM agents.
 - [Embodied Red Teaming](https://s-karnik.github.io/embodied-red-team-project-page/) - Project page for red-team evaluation of robotic foundation models.
 - [VLA-SAFE](https://vla-safe.github.io/) - Failure detection for VLA policies, including OpenVLA and pi0-family policies.
+- [SAFE](https://github.com/vla-safe/SAFE) - Official code for multitask failure detection on VLA policies.
+- [IS-Bench](https://github.com/AI45Lab/IS-Bench) - Official data and code for interactive safety evaluation of VLM-driven household embodied agents.
 
 ## Policy, Governance and Public Sector
 
