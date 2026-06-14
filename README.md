@@ -49,8 +49,10 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models](https://arxiv.org/abs/2606.11324) - Open embodied foundation model release with closed-loop planning, grounding and self-correction plus real-robot transfer and evaluation infrastructure. `robot-foundation-model`, `physical-ai`, `open-release`
 - [RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies](https://arxiv.org/abs/2506.18123) - Real-world evaluation framework for generalist robot policies. `benchmark`, `evaluation`, `robot-policy`
 - [SAFE: Multitask Failure Detection for Vision-Language-Action Models](https://arxiv.org/abs/2506.09937) - Failure detector for generalist robot policies, evaluated on OpenVLA, pi0 and pi0-FAST in simulation and real robots. `failure-detection`, `vla`, `runtime-safety`
+- [RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models](https://arxiv.org/abs/2606.02277) - Benchmark showing that many VLA policies grasp reliably but fail to map instruction semantics to the correct physical target. `benchmark`, `vla`, `semantic-safety`
 - [IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/abs/2506.16402) - Benchmark for interactive safety of VLM-driven embodied agents in household scenarios. `benchmark`, `vlm`, `household`
 - [AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions](https://arxiv.org/abs/2506.14697) - Benchmark for embodied agents responding to hazardous instructions. `benchmark`, `hazardous-instructions`, `embodied-agent`
+- [PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation](https://arxiv.org/abs/2606.08414) - Post-training method for safer diffusion robot policies that projects trajectories toward feasible constraint regions while reducing violations in real and simulated manipulation. `safe-control`, `manipulation`, `diffusion-policy`
 
 #### May 2026
 
@@ -213,6 +215,7 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment robotics dataset and RT-X models.
 - [Embodied Arena](https://www.dfki.de/web/forschung/projekte-publikationen/publikation/16377) - Evaluation platform for embodied AI capabilities.
 - [ASIMOV Benchmark](https://asimov-benchmark.github.io/) - Semantic and physical safety benchmarks for foundation models serving as robot brains.
+- [EmbodiedEvalKit](https://github.com/pickxiguapi/EmbodiedEvalKit) - Unified evaluation framework for 25+ embodied benchmarks with API, Hugging Face and vLLM backends.
 - [SafeAgentBench](https://github.com/shengyin1224/SafeAgentBench) - Benchmark and environment for safety-aware task planning of embodied LLM agents.
 - [Embodied Red Teaming](https://s-karnik.github.io/embodied-red-team-project-page/) - Project page for red-team evaluation of robotic foundation models.
 - [VLA-SAFE](https://vla-safe.github.io/) - Failure detection for VLA policies, including OpenVLA and pi0-family policies.
