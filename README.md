@@ -23,7 +23,7 @@ Out of scope by default: generic chatbot safety, ordinary LLM evaluations, purel
 
 ## Curation
 
-The default search window starts in **January 2023**, with older foundational robotics safety, security and standards work included where relevant. The list is expanded using a review-led method: start from major surveys and systematic reviews, then add representative papers, benchmarks and systems chronologically. See [SEARCH_METHOD.md](SEARCH_METHOD.md) for the detailed curation method.
+The default search window starts in **January 2023**, with older foundational robotics safety, security and standards work included where relevant. The list is expanded using a review-led method: start from major surveys and systematic reviews, then add representative papers, benchmarks and systems chronologically. See [SEARCH_METHOD.md](SEARCH_METHOD.md) for the detailed curation method and [RISK_TOPICS.md](RISK_TOPICS.md) for a topic-oriented risk and reading map.
 
 ## Contents
 
@@ -35,6 +35,7 @@ The default search window starts in **January 2023**, with older foundational ro
 - [Domain-Specific Safety](#domain-specific-safety)
 - [Regional and Jurisdiction-Specific Resources](#regional-and-jurisdiction-specific-resources)
 - [Related Awesome Lists](#related-awesome-lists)
+- [Risk Topics and Reading Map](RISK_TOPICS.md)
 
 ## Papers
 
